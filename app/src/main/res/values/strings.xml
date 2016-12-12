@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NoSteroids</string>
+
+    <string name="Exercises">Ćwieczenia</string>
+    <string name="TrainingPlans">Plany Treningowe</string>
+    <string name="Diets">Dieta/Plany Żywieniowe</string>
+    <string name="Supplements">Suplementy</string>
+    <string name="Calculators">Kalkulatory</string>
+    <string name="Challenges">Wyzwania</string>
+    <string name="Fbw">Full Body Workout</string>
+    <string name="Chest">Klatka Piersiowa</string>
+</resources>
