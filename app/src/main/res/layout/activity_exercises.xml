@@ -15,12 +15,56 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true">
+        android:layout_alignParentTop="true"
+        android:weightSum="1">
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/bChest"
-            android:text="@string/Chest" />
+            android:text="@string/Chest"
+            android:layout_weight="0.14" />
+
+        <Button
+            android:text="@string/Back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bBack"
+            android:layout_weight="0.14" />
+
+        <Button
+            android:text="@string/Legs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bLegs"
+            android:layout_weight="0.14" />
+
+        <Button
+            android:text="@string/Biceps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bBiceps"
+            android:layout_weight="0.14" />
+
+        <Button
+            android:text="@string/Triceps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bTriceps"
+            android:layout_weight="0.14" />
+
+        <Button
+            android:text="@string/Shoulders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bShoulders"
+            android:layout_weight="0.14" />
+
+        <Button
+            android:text="@string/Abs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bAbs"
+            android:layout_weight="0.14" />
     </LinearLayout>
 </RelativeLayout>
