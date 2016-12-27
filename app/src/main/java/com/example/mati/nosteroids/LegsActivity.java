@@ -10,7 +10,8 @@ import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
-public class ChestActivity extends YouTubeBaseActivity {
+public class LegsActivity extends YouTubeBaseActivity {
+
 
     Button bPlay, bPlay2, bPlay3;
     private YouTubePlayerView youTubePlayerView, youTubePlayerView2, youTubePlayerView3;
@@ -21,13 +22,13 @@ public class ChestActivity extends YouTubeBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chest);
+        setContentView(R.layout.activity_legs);
 
         youTubePlayerView = (YouTubePlayerView) findViewById(R.id.ytChest);
         onInitializedListener = new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-                youTubePlayer.loadVideo("9n4lgCrxr0I");
+                youTubePlayer.loadVideo("artFx1gn52s");
             }
 
             @Override
@@ -49,7 +50,7 @@ public class ChestActivity extends YouTubeBaseActivity {
         film2 = new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-                youTubePlayer.loadVideo("pzb2P55g8vc");
+                youTubePlayer.loadVideo("c5KjZ_43owM");
             }
 
             @Override
@@ -71,7 +72,7 @@ public class ChestActivity extends YouTubeBaseActivity {
         film3 = new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-                youTubePlayer.loadVideo("Ai79TnylaqM");
+                youTubePlayer.loadVideo("rdCcNWe7j1s");
             }
 
             @Override
@@ -88,6 +89,8 @@ public class ChestActivity extends YouTubeBaseActivity {
                 youTubePlayerView3.initialize("AIzaSyBSsm8BpCh_ISb0di22bbZ6xNm7hPcbzww", film3);
             }
         });
+
+
 
     }
 }

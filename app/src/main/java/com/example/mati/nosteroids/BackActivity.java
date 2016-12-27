@@ -10,7 +10,8 @@ import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
-public class ChestActivity extends YouTubeBaseActivity {
+public class BackActivity extends YouTubeBaseActivity {
+
 
     Button bPlay, bPlay2, bPlay3;
     private YouTubePlayerView youTubePlayerView, youTubePlayerView2, youTubePlayerView3;
@@ -21,13 +22,14 @@ public class ChestActivity extends YouTubeBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chest);
+        setContentView(R.layout.activity_back);
+
 
         youTubePlayerView = (YouTubePlayerView) findViewById(R.id.ytChest);
         onInitializedListener = new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-                youTubePlayer.loadVideo("9n4lgCrxr0I");
+                youTubePlayer.loadVideo("PaqvesLOcpA");
             }
 
             @Override
@@ -49,7 +51,7 @@ public class ChestActivity extends YouTubeBaseActivity {
         film2 = new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-                youTubePlayer.loadVideo("pzb2P55g8vc");
+                youTubePlayer.loadVideo("zTEXQ4WH7oY");
             }
 
             @Override
@@ -71,7 +73,7 @@ public class ChestActivity extends YouTubeBaseActivity {
         film3 = new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-                youTubePlayer.loadVideo("Ai79TnylaqM");
+                youTubePlayer.loadVideo("XOoFudeINrw");
             }
 
             @Override
@@ -91,3 +93,6 @@ public class ChestActivity extends YouTubeBaseActivity {
 
     }
 }
+
+
+

@@ -9,4 +9,13 @@
     <string name="Challenges">Wyzwania</string>
     <string name="Fbw">Full Body Workout</string>
     <string name="Chest">Klatka Piersiowa</string>
+    <string name="Back">Plecy</string>
+    <string name="Legs">Nogi</string>
+    <string name="Biceps">Biceps</string>
+    <string name="Triceps">Triceps</string>
+    <string name="Shoulders">Barki</string>
+    <string name="Abs">ABS</string>
+    <string name="bPlay">Play</string>
+    <string name="bPlay2">Play</string>
+    <string name="bPlay3">Play</string>
 </resources>
